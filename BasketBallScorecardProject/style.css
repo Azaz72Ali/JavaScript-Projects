@@ -1,0 +1,99 @@
+@import url("http://fonts.cdnfonts.com/css/cursed-timer-ulil");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b244a;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+header {
+  /* border: 2px solid white; */
+  max-width: 100%;
+  width: 1250px;
+  margin: 0 auto;
+  margin-top: 2em;
+  border-bottom: 5px solid rgb(167, 160, 160);
+  padding: 2em;
+}
+.container {
+  max-width: 100%;
+  width: 1000px;
+  /* border: 2px solid white; */
+  margin: 0 auto;
+  display: flex;
+  margin-top: 0.3em;
+  justify-content: space-around;
+  padding: 1em;
+}
+.home,
+.guest {
+  border: 2px solid whitesmoke;
+  border-radius: 0.8em;
+  padding: 2em 3em;
+  font-weight: bold;
+  margin-top: 2em;
+}
+h2 {
+  font-size: 4rem;
+}
+.home-score,
+.guest-score {
+  width: 50%;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0;
+}
+.score {
+  background-color: black;
+  padding: 0.3em 0;
+  border-radius: 0.5em;
+}
+.btn-score {
+  cursor: pointer;
+  margin: 8px;
+  margin-top: 0.7em;
+  padding: 0.9em 1.5em;
+  background-color: #1b244a;
+  border: 1px solid whitesmoke;
+  border-radius: 0.4em;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+.btns-container {
+  margin-top: 0.4em;
+  padding: 2em;
+}
+.btns {
+  cursor: pointer;
+  padding: 1em 2em;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: 2px solid whitesmoke;
+  background-color: #1b244a;
+  color: aliceblue;
+}
+.mess {
+  margin-top: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.winner {
+  background-color: green;
+}
+.draw {
+  background-color: blueviolet;
+}
