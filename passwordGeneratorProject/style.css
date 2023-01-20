@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    margin-top: 3em;
+    background: black;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5em;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  .child {
+    margin-bottom: 2em;
+    border-bottom: 0.4px solid rgb(66, 65, 65);
+  }
+  
+  h2 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: -5px;
+  }
+  
+  .randompass {
+    color: yellow;
+  }
+  
+  p {
+    margin-top: 0.6em;
+    color: white;
+    margin-bottom: 2em;
+  }
+  
+  #generate-pass {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    background: rgb(157, 115, 37);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 1.8em;
+  }
+  
+  .common {
+    display: inline;
+    background: rgb(34, 33, 33);
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    color: orange;
+  }
+  
+  #second-pass {
+    margin-left: 3em;
+  }
+  
