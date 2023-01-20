@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+  }
+  
+  .first {
+    background: rgb(89, 89, 233);
+    color: white;
+    padding: 1.5em 0.2em;
+    margin: 0.2em;
+    border-radius: 5px;
+    padding-bottom: 2em;
+  }
+  
+  #input-unit {
+    margin-top: 0.8em;
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(190, 190, 209);
+    border-radius: 5px;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0.1em 0.5em;
+    color: white;
+    background: rgb(89, 89, 233);
+  }
+  
+  #convert-btn {
+    margin-top: 1.2em;
+    background: white;
+    border: none;
+    color: rgb(150, 139, 139);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.4em 1.3em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .second {
+    margin: 0em 0.2em 0.2em 0.2em;
+    background: rgb(230, 229, 229);
+    padding: 1em 0.8em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .second div {
+    padding: 0.8em 1.2em;
+    background-color: white;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  .second div p {
+    white-space: nowrap;
+    color: rgb(92, 92, 145);
+    font-weight: bold;
+    margin: 0.5em;
+  }
+  
+  #meter-feet,
+  #litre-gallon,
+  #kg-pound {
+    color: black;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  
