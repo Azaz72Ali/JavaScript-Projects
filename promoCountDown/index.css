@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url("timer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+    max-width: 900px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: grid;
+    place-content: center;
+    padding: 4em 1em;
+  }
+  .container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+  }
+  .container p {
+    /* background-color: rgb(50, 199, 50); */
+  
+    color: rgb(229, 224, 233);
+    text-shadow: 2px 2px #ff0000;
+    margin-top: 0.8em;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  .btn {
+    padding: 0.7em 1.6em;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 0.7em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    font-weight: 700;
+  }
+  .btn-stop {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+  }
+  .btn-resume {
+    background-color: rgb(79, 31, 211);
+    color: white;
+    border: 2px solid white;
+  }
+  .btn-stop:hover,
+  .btn-stop:focus {
+    background-color: rgb(56, 54, 54);
+  }
+  .btn-resume:hover,
+  .btn-resume:focus {
+    background-color: rgb(95, 56, 202);
+  }
+  .btn-start:hover,
+  .btn-start:focus {
+    background-color: rgb(213, 199, 159);
+  }
+  .hidden {
+    display: none;
+  }
+  @media (min-width: 645px) {
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      place-content: center;
+      padding: 6em 2em;
+    }
+    .container h1 {
+      font-size: 5rem;
+    }
+    .container p {
+      margin-top: 1em;
+      font-size: 3rem;
+    }
+    .btn {
+      padding: 1em 1.95em;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
+  
