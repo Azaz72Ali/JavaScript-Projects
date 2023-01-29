@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #2389da;
+    color: white;
+    text-align: center;
+  }
+  .container {
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    width: 90%;
+    max-width: 1200px;
+    height: 100vh;
+    padding-top: 0.3em;
+  }
+  .goal-container {
+    margin-top: 0.9em;
+    border: 3px solid #43b4f1;
+    border-radius: 0.7em;
+    width: 70%;
+    max-width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px blue;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0.4em;
+  }
+  .setGoal {
+    background-color: #1ca3ec;
+    /* padding: 0.4em 0; */
+    margin-bottom: 0.2em;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    width: 30%;
+    font-weight: 900;
+    border-radius: 0.4em;
+  }
+  .set {
+    background-color: black;
+    border: 2px solid white;
+    padding: 2px 3px;
+    color: white;
+    cursor: pointer;
+  }
+  .vessel {
+    border: 5px solid #0f5e9c;
+    margin-top: 0.5em;
+    width: 40%;
+    max-width: 150px;
+    margin: 0.5em auto;
+    height: 30vh;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e6e8e9;
+    position: relative;
+    overflow: hidden;
+  }
+  .vessel {
+    color: black;
+    font-weight: 400;
+  }
+  p:first-child {
+    z-index: 1;
+    font-size: 1.5em;
+    color: blue;
+    font-weight: 700;
+  }
+  .select {
+    font-size: 1.2rem;
+  }
+  #remain {
+    z-index: 1;
+  }
+  .fill-up {
+    background-color: aqua;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  
+    height: 0%;
+  }
+  #percent {
+    color: green;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .glass-container {
+    margin: 0 auto;
+    margin-top: 0.4em;
+    border-radius: 0.4em;
+    border: 2px solid blue;
+    background-color: #178ff0;
+    width: 80%;
+    display: flex;
+  
+    flex-wrap: wrap;
+    padding: 0.7em;
+  }
+  .glass {
+    margin: 0 5px 4px 5px;
+    width: 20%;
+    max-width: 45px;
+    height: 70px;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    /* flex: 1; */
+  }
+  .glass p {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 575px) {
+    .glass-container {
+      max-width: 500px;
+  
+      width: 60%;
+    }
+    .glass {
+      margin-bottom: 15px;
+    }
+  }
+  

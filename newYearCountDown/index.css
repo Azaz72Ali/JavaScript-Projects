@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+  }
+  .container {
+    /* word-break: break-all; */
+    word-wrap: break-word;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 10em;
+    width: 90%;
+    max-width: 900px;
+    border: 2px solid red;
+    box-shadow: white 0px 3px 8px;
+    background-color: white;
+    padding: 2em 0;
+  }
+  h1 {
+    font-weight: 700;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 2.4rem;
+  }
+  
+  h2 {
+    margin-top: 1em;
+    font-weight: 900;
+    font-size: 2.4rem;
+    opacity: 0;
+  }
+  @media (min-width: 650px) {
+    h1 {
+      font-size: 3.2rem;
+    }
+    h2 {
+      font-size: 3.4rem;
+    }
+  }
+  

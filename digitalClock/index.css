@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+  }
+  .container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    margin: 10em auto;
+    padding: 2em 0.5em 2em 0.5em;
+    background-color: rgb(36, 195, 68);
+    border-radius: 0.6em;
+    box-shadow: 10px 10px 5px 0px rgba(113, 196, 116, 0.75);
+  }
+  .container p {
+    margin-bottom: 0.8em;
+    color: white;
+  }
+  .date {
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 2px 2px #ff0000;
+  }
+  .time {
+    font-size: 2.8rem;
+    font-weight: 900;
+    text-shadow: 2px 2px black;
+  }
+  
