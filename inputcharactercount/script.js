@@ -1,12 +1,9 @@
-const btn = document.querySelector(".btn");
+let count = document.querySelector(".count");
+
 const input = document.querySelector(".input-txt");
 
-btn.addEventListener("click", copyText);
+input.addEventListener("keyup", findCharCount);
 
-function copyText() {
-  input.select();
-  //input.setSelectionRange(0, 99999);
-
-  navigator.clipboard.writeText(input.value);
-  alert("Copied to Clipboard");
+function findCharCount(e) {
+  count.innerHTML = input.value.replace(/ /g, "").length;
 }
